@@ -44,6 +44,7 @@ After thoroughly analyzing the variables, I changed and engineered some features
 * Dropped the columns that didn't affect the target variable
 * One-hot encoded the categorical variable
 * Scaled some features
+* Addressed target imbalance
 
 ## Model building
 I tried seven different models and evaluated them using standard accuracy metric classification report. The models include:
