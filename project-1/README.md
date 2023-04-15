@@ -1,27 +1,28 @@
-# Bank Customer Churn Prediction Model: Project Overview
-For this project, I built a predictive classification model that estimates whether a certain bank customer is likely to churn. The objective of the project is to showcase the skills related to data preprocessing, exploratory data analysis, feature engineering and classification model building and tuning.
+# Dataset Building by scraping Wikipedia: Project Overview
+For this project, I . The objective of the project is to showcase the skills related to data collection, dataset building, data preprocessing, exploratory data analysis, and feature engineering.
 
 ## Code and Resources Used
 **Python version**: 3.10.9 <br>
-**Packages**: numpy, pandas, matplotlib, sklearn, seaborn, warning, scipy, imblearn, copy. <br>
-**Dataset Source**: https://www.kaggle.com/datasets/muratcakmak/churn-modelling-bank-customer
+**Packages**: numpy, pandas, matplotlib, seaborn, warning, bs4, re, requests, json, csv, copy. <br>
+**Dataset Source**: https://en.wikipedia.org/wiki/Classical_Hollywood_cinema
+** Web Scraping article**: https://realpython.com/beautiful-soup-web-scraper-python/
 
 ## Dataset Characteristics
-The dataset that I downloaded from Kaggle (author: MURAT ÇAKMAK) contains open-source (or mock) bank customers data that can help predict the customers churn. After converting it to a Pandas data frame, it contains 10 000 rows and 14 columns:
- 1. CustomerId
- 2. Surname
- 3. CreditScore
- 4. Geography
- 5. Gender
- 6. Age
- 7. Tenure
- 8. Balance
- 9. NumOfProducts
- 10. HasCrCard
- 11. IsActiveMember
- 12. EstimatedSalary
- 13. Exited
- 14. RowNumber
+Initially, the dataset that I scraped from Wikipedia contained 194 rows and 84 columns, where the majority is almost fully empty. After data cleaning ans feature engineering, it now contains 194 rows and  columns:
+ 1. 
+ 2. 
+ 3. 
+ 4. 
+ 5. 
+ 6. 
+ 7. 
+ 8. 
+ 9. 
+ 10. 
+ 11. 
+ 12. 
+ 13. 
+ 14. 
 
 ## Data Cleaning
 First step was to clean up the data so it was usable for our model. I made the following changes:
@@ -32,16 +33,8 @@ First step was to clean up the data so it was usable for our model. I made the f
 In order to gain insights into the variables, I performed exploratory data analysis, and namely:
 * Examined correlation between numerical variables
 * Examined categorical variables
-* Performed analysis of variance (ANOVA)
 * Visualized variables to look at distribution of the data, values counts and proportions. Below are a few highlights from EDA:
-![alt text](https://github.com/dabykov/Projects/blob/main/project-3/Correlation.png "Correlation")
-![alt text](https://github.com/dabykov/Projects/blob/main/project-3/Age.png "Age Distribution")
-![alt text](https://github.com/dabykov/Projects/blob/main/project-3/Country.png "Customers by Country")
-![alt text](https://github.com/dabykov/Projects/blob/main/project-3/Exited.png "Exited Proprtion")
-
-## Feature engineering
-After thoroughly analyzing the variables, I changed and engineered some features making a few changes, namely:
-* Dropped the columns that didn't affect the target variable
-* One-hot encoded the categorical variable
-* Scaled some features
-* Addressed target imbalance
+![alt text]()
+![alt text]()
+![alt text]()
+![alt text]()
