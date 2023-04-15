@@ -5,7 +5,7 @@ For this project, I . The objective of the project is to showcase the skills rel
 **Python version**: 3.10.9 <br>
 **Packages**: numpy, pandas, matplotlib, seaborn, warning, bs4, re, requests, json, csv, copy. <br>
 **Dataset Source**: https://en.wikipedia.org/wiki/Classical_Hollywood_cinema
-** Web Scraping article**: https://realpython.com/beautiful-soup-web-scraper-python/
+**Web Scraping article**: https://realpython.com/beautiful-soup-web-scraper-python/
 
 ## Dataset Characteristics
 Initially, the dataset that I scraped from Wikipedia contained 194 rows and 84 columns, where the majority is almost fully empty. After data cleaning ans feature engineering, it now contains 194 rows and  columns:
