@@ -41,6 +41,9 @@ In order to gain insights into the variables, I performed exploratory data analy
 * Performed analysis of variance (ANOVA)
 * Visualized variables to look at distribution of the data, values counts and proportions
 Below are a few highlights from EDA:
+![alt text](https://github.com/dabykov/Projects/blob/main/project-2/neighbourhoods.png "Neighbourhood")
+![alt text](https://github.com/dabykov/Projects/blob/main/project-2/neighbourhood_groups_map.png "Neighbourhood Groups")
+![alt text](https://github.com/dabykov/Projects/blob/main/project-2/price%20distribution.png "Price Distribution")
 
 ## Feature engineering
 After thoroughly analyzing the variables, I changed and engineered some features making a few changes, namely:
@@ -57,6 +60,6 @@ I tried three different models and evaluated them using Root Mean Squared Error 
 
 ## Model performance
 The Random Forest model far outperformed the other approaches on the test and validation sets. 
-*	**Random Forest regression** : R-squared = 0.9999999999997673
-*	**Gradient Boosting Regression**: R-squared = 0.9999999999122966
-*	**KNN Regression**: R-squared = 0.9431290518848512
+*	**Random Forest regression** : R-squared = 99.9%
+*	**Gradient Boosting Regression**: R-squared = 99.9%
+*	**KNN Regression**: R-squared = 94.3%
