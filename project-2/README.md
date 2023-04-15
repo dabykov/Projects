@@ -43,5 +43,20 @@ In order to gain insights into the variables, I performed exploratory data analy
 Below are a few highlights from EDA:
 
 ## Feature engineering
+After thoroughly analyzing the variables, I changed and engineered some features making a few changes, namely:
+* Dropped the columns that didn't affect the target variable
+* One-hot encoded the 'neighbourhood' variable and then applied PCA
+* Scaled some features
 
 ## Model building
+I tried three different models and evaluated them using Root Mean Squared Error and R-squared metrics. I chose RMSE because it is relatively easy and intuitive to interpret, and it punishes large prediction errors.
+
+*	**Random Forest Regression** – Because it deals great with sparse data from categorical variables and also is able to capture non-linear relationships between input features and output variable
+*	**Gradient Boosting Regression** – Because of the same reasons as for RFR, but it uses different (sequential) approach.
+*	**KNN regression** – Because it is easy to interpret and it works well with a low-dimensional data.
+
+## Model performance
+The Random Forest model far outperformed the other approaches on the test and validation sets. 
+*	**Random Forest regression** : R-squared = 0.9999999999997673
+*	**Gradient Boosting Regression**: R-squared = 0.9999999999122966
+*	**KNN Regression**: R-squared = 0.9431290518848512
