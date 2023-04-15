@@ -1,4 +1,4 @@
-# Airbnb Price Prediciton Model: Project Overview
+# Bank Customer Churn Prediction Model: Project Overview
 For this project, I built a predictive classification model that estimates whether a certain bank customer is likely to churn. The objective of the project is to showcase the skills related to data preprocessing, exploratory data analysis, feature engineering and classification model building and tuning.
 
 ## Code and Resources Used
