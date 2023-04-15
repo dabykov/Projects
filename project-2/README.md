@@ -39,8 +39,7 @@ In order to gain insights into the variables, I performed exploratory data analy
 * Examined correlation between numerical variables
 * Examined values counts for the categrical variables
 * Performed analysis of variance (ANOVA)
-* Visualized variables to look at distribution of the data, values counts and proportions
-
+* Visualized variables to look at distribution of the data, values counts and proportions<br>
 Below are a few highlights from EDA:
 ![alt text](https://github.com/dabykov/Projects/blob/main/project-2/neighbourhoods.png "Neighbourhood")
 ![alt text](https://github.com/dabykov/Projects/blob/main/project-2/neighbourhood_groups_map.png "Neighbourhood Groups")
