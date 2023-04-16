@@ -23,7 +23,7 @@ Next step was to clean up the data so it was usable for oexploratory analysis. I
 * Converted dates into datetime objects
 
 ## Dataset Characteristics
-Initially, the dataset that I scraped from Wikipedia contained 196 rows and 84 columns, where the majority is almost fully empty. After data cleaning ans feature engineering, it now contains 196 rows and 14 columns:
+Initially, the dataset that I scraped from Wikipedia contained 196 rows and 84 columns, where the majority is almost fully empty. After data cleaning and feature engineering, it now contains 196 rows and 14 columns:
 
  1. Name       
  2. Full Birth Name      
@@ -45,6 +45,7 @@ In order to gain some insights into the dataset, I performed exploratory data an
 * Examined numerical and categorical features
 * Posed questions that seemed interesting to me and answered them
 * Visualized some variables to look at proportions and distributions of the data, values counts and proportions. Here are few highlights from EDA:
+
 ![alt text](https://github.com/dabykov/Projects/blob/main/project-1/occupations.png)
 ![alt text](https://github.com/dabykov/Projects/blob/main/project-1/decades.png)
 ![alt text](https://github.com/dabykov/Projects/blob/main/project-1/countries.png)
