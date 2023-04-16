@@ -1,4 +1,4 @@
-# Dataset Building by scraping Wikipedia: Project Overview
+# Data Collection and Analysis: Project Overview
 For this project, I scraped a Wikipedia page in order to build a dataset that contains general information regarding major old Hollywood figures. The objective of the project is to showcase the skills related to data collection, data preprocessing, exploratory data analysis, and feature engineering.
 
 ## Code and Resources Used
@@ -45,7 +45,6 @@ In order to gain some insights into the dataset, I performed exploratory data an
 * Examined numerical and categorical features
 * Posed questions that seemed interesting to me and answered them
 * Visualized some variables to look at proportions and distributions of the data, values counts and proportions. Here are few highlights from EDA:
-![alt text]()
-![alt text]()
-![alt text]()
-![alt text]()
+![alt text](https://github.com/dabykov/Projects/blob/main/project-1/occupations.png)
+![alt text](https://github.com/dabykov/Projects/blob/main/project-1/decades.png)
+![alt text](https://github.com/dabykov/Projects/blob/main/project-1/countries.png)
