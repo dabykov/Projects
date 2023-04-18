@@ -34,10 +34,8 @@ In order to gain insights into the variables, I performed exploratory data analy
 * Examined categorical variables
 * Performed analysis of variance (ANOVA)
 * Visualized variables to look at distribution of the data, values counts and proportions. Below are a few highlights from EDA:
-![alt text](https://github.com/dabykov/Projects/blob/main/project-3/Correlation.png "Correlation")
-![alt text](https://github.com/dabykov/Projects/blob/main/project-3/Age.png "Age Distribution")
-![alt text](https://github.com/dabykov/Projects/blob/main/project-3/Country.png "Customers by Country")
-![alt text](https://github.com/dabykov/Projects/blob/main/project-3/Exited.png "Exited Proprtion")
+
+![](https://github.com/dabykov/Projects/blob/main/project-3/Dashboard%203.png?raw=true)
 
 ## Feature engineering
 After thoroughly analyzing the variables, I changed and engineered some features making a few changes, namely:
