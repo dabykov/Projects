@@ -46,6 +46,4 @@ In order to gain some insights into the dataset, I performed exploratory data an
 * Posed questions that seemed interesting to me and answered them
 * Visualized some variables to look at proportions and distributions of the data, values counts and proportions. Here are few highlights from EDA:
 
-![alt text](https://github.com/dabykov/Projects/blob/main/project-1/occupations.png)
-![alt text](https://github.com/dabykov/Projects/blob/main/project-1/decades.png)
-![alt text](https://github.com/dabykov/Projects/blob/main/project-1/countries.png)
+![](https://github.com/dabykov/Projects/blob/main/project-2/Dashboard%202.png?raw=true)
