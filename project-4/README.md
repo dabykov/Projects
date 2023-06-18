@@ -44,7 +44,7 @@ After analyzing the variables, I preprocessed and transformed some features, nam
 
 ## Model building
 In order to form clusters from the preprocessed data, I applied an unsupervised machine learning algorithm K-means. Below are a few highlights from the clustering analysis:
-![](https://github.com/dabykov/Projects/blob/main/project-3/Dashboard%203.png?raw=true)
+![](https://github.com/dabykov/Projects/blob/main/project-4/Dashboard%204.png?raw=true)
 
 
 ## Profiling
