@@ -1,4 +1,4 @@
-# Bank Customer Churn Prediction Model: Project Overview
+# UFC Fighters Segmentation using K-means: Project Overview
 For this project, I performed a clustering analysis breaking UFC fighters into different groups based on the characteristics available (besides the standard weight and gender grouping). The objective of this project is to showcase the skills related to unlabeled data preprocessing, exploratory data analysis, and applying unsupervised learning algorithms in order to perform data segmentation. 
 
 ## Code and Resources Used
