@@ -7,7 +7,7 @@ For this project, I performed a clustering analysis breaking UFC fighters into d
 **Dataset Source**: https://www.kaggle.com/datasets/axeltorbenson/ufc-roster-datastatistics
 
 ## Dataset Characteristics
-The dataset that I downloaded from Kaggle (author:  Axel Torbenson) contains data related to the UFC fighter roster along with the official rankings of each fighter, general physical information (age, weight and height), their UFC record and total MMA record. The original data was gathered from Wikipedia and the UFC website. After converting it to a Pandas data frame, it contains 617 rows and 14 columns:
+The dataset that I downloaded from Kaggle (author:  Axel Torbenson) contains data related to the UFC fighter roster along with the official rankings of each fighter, general physical information (age, weight, and height), their UFC record, and total MMA record. The original data was gathered from Wikipedia and the UFC website. After converting it to a Pandas data frame, it contains 617 rows and 14 columns:
 1. Ranking
 2. Name
 3. Age
@@ -48,7 +48,7 @@ In order to form clusters from the preprocessed data, I applied an unsupervised 
 
 
 ## Profiling
-Lastly, I evaluated the results and conduct the following cluster profiling:
+Lastly, I evaluated the results and conducted the following cluster profiling:
 
 #### Cluster 1:
 - Young fighters
